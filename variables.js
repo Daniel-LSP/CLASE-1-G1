@@ -45,4 +45,4 @@ console.log(usuario.length)
 
 var login=true
 console.log(typeof(login))//boolean
-console.log()
+console.log(2!=="2")//true
