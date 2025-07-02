@@ -18,3 +18,26 @@ function comprobar(array,elemento){
     return false
 }
 console.log(comprobar(datos,"cali"))
+
+//2.
+var lista=[8,9,12,64,7]
+
+const sumar=(array)=>{
+    let total=0;
+    for(let i=0;i<array.length;i++){
+    total=total+array [i]
+    }
+    return total
+}
+console.log(sumar(lista))
+
+
+
+//version 2
+const sumar_2=(array)=>{
+    let resultado=array.reduce((acumulado, actual)=>acumulado+actual)
+    return resultado
+
+}
+
+console.log(sumar_2(lista))
